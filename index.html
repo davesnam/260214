@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minah & Sangjoon - Wedding Gallery</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Minah & Sangjoon are getting married!</h1>
+        <p class="subtitle">Celebrating our journey together</p>
+    </header>
+
+    <main>
+        <!-- Photo Gallery Section -->
+        <section id="gallery" class="gallery-section">
+            <h2>Our Memories</h2>
+            <div class="gallery-grid" id="galleryGrid">
+                <!-- Photos will be loaded here by JavaScript -->
+            </div>
+        </section>
+
+        <!-- Guest Notes Section -->
+        <section id="guestbook" class="guestbook-section">
+            <h2>Leave a Note</h2>
+            <p>Share your wishes and messages with us!</p>
+
+            <div class="guestbook-form">
+                <input type="text" id="guestName" placeholder="Your Name" required>
+                <textarea id="guestMessage" placeholder="Your message to the happy couple..." rows="4" required></textarea>
+                <button onclick="submitNote()">Send Love ❤️</button>
+            </div>
+
+            <div class="notes-container" id="notesContainer">
+                <h3>Messages from Our Loved Ones</h3>
+                <div id="notesList" class="notes-list">
+                    <!-- Notes will be displayed here -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section">
+            <h2>Questions?</h2>
+            <p>Feel free to reach out to us at:</p>
+            <a href="mailto:dave.s.nam@gmail.com" class="email-link">dave.s.nam@gmail.com</a>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 - Made with Love</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
