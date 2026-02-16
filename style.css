@@ -135,6 +135,13 @@ section h2 {
     box-shadow: 0 5px 15px rgba(212, 163, 115, 0.4);
 }
 
+.giscus-container {
+    margin-top: 30px;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .notes-container {
     margin-top: 50px;
 }
